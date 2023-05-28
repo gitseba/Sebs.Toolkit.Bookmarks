@@ -7,7 +7,6 @@
     /// </summary>
     public interface ISqliteService
     {
-        //Task<IEnumerable<T>> QueryDatabaseAsync<T>(string connectionString, string sqlQuery);
         IEnumerable<T> QueryDatabase<T>(string connectionString, string sqlQuery);
     }
 }
